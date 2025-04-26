@@ -1,0 +1,15 @@
+{
+  "extends": "tsconfig/nest.json",
+  "compilerOptions": {
+    "outDir": "./dist", // Output directory for compiled files
+    "baseUrl": "./", // Base directory for module resolution
+    "strict": true, // Enable all strict type-checking options
+    "strictNullChecks": true, // Ensure null/undefined are handled explicitly
+    "noImplicitAny": true, // Disallow implicit 'any' types
+    "esModuleInterop": true, // Enable compatibility with CommonJS modules
+    "skipLibCheck": true, // Skip type checking of declaration files
+    "resolveJsonModule": true // Allow importing JSON files
+  },
+  "include": ["src/**/*"], // Include all source files
+  "exclude": ["node_modules", "dist", "test"] // Exclude unnecessary directories
+}

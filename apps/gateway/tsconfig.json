@@ -1,0 +1,10 @@
+{
+  "extends": "tsconfig/nest.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "strictNullChecks": true
+  },
+  "include": ["src/**/*.ts", "test/**/*.ts"]
+}
